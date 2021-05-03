@@ -5,5 +5,5 @@ This repository provides example files of [VisClaw.jl](https://github.com/hydroc
 MIT
 
 ## Author
-[Takuya Miyashita](https://hydrocoast.jp)
+[Takuya Miyashita](https://hydrocoast.jp)   
 Disaster Prevention Research Institute, Kyoto University
