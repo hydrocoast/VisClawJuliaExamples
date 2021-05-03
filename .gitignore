@@ -19,3 +19,4 @@ gmt.*
 *.cpt
 tmp/
 .ipynb_*/
+~$*
