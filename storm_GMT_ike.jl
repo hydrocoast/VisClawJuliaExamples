@@ -15,7 +15,7 @@ coarsegridmask!(amrall)
 converttodatetime!(amrall, timeorigin)
 ## time in string
 time_str = Dates.format.(amrall.timelap, "yyyy/mm/dd HH:MM")
-
+#=
 ## make cpt
 cpt = GMT.makecpt(C=:wysiwyg, T="950/1020", D=true, I=true)
 
@@ -37,3 +37,4 @@ for i = 1:amrall.nstep
     GMT.grdvector!(Gus, Gvs, J=proj, R=region, lw=0.5, fill=:black, S="i0.03", arrow=(len=0.15, stop=:arrow, shape=0.5, fill=:black, justify=:center), Y=1.3)
     GMT.pstext!(GMT.text_record([arrowscale[1]+3.5 arrowscale[2]], @sprintf("%0.0f", sqrt(arrowscale[3]^2+arrowscale[4]^2))*" m/s"), R=region, savefig=outpng)
 end
+=#
