@@ -14,7 +14,7 @@ replaceunit!.(fgmax, :hour)
 pltA = plotsfgmax(fg[1], fgmax[1], :D; c=:amp, clims=(0.0,15.0))
 pltA = plotsfgmax!(pltA, fg[3], fgmax[3], :D; c=:amp, clims=(0.0,15.0))
 
-pltM = plotsfgmax(fg[1], fgmax[1], :Dmin; c=:ice, clims=(-10.0, 0.0))
+#pltM = plotsfgmax(fg[1], fgmax[1], :Dmin; c=:ice, clims=(-10.0, 0.0))
 pltM = plotsfgmax!(pltM, fg[3], fgmax[3], :Dmin; c=:ice, clims=(-10.0, 0.0))
 
 plt = plotsfgmax(fg[2], fgmax[2], :D; label="max 2")
